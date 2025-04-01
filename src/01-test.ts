@@ -1,9 +1,10 @@
 import { Object } from "./02-Basic Data Types";
+import { object1 } from "./02-Basic Data Types";
 
 const test: string = "test 01";
 console.log(test);
 
-const obj2: Object = {
+const object2: Object = {
   name: "Mansur",
   age: 21,
   education: {
@@ -12,4 +13,5 @@ const obj2: Object = {
   },
 };
 
-console.log(obj2);
+console.log(object1);
+console.log(object2);

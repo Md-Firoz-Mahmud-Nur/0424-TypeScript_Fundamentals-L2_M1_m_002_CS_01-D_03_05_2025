@@ -15,9 +15,9 @@ export type Object = {
   };
 };
 
-const obj: Object = {
+export const object1: Object = {
   name: "Mansur",
-  age: 21,
+  age: 22,
   education: {
     institution: "COllege",
     level: "Undergrad",
